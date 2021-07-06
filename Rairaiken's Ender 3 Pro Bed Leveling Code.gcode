@@ -1,4 +1,5 @@
 ; My Ender 3 Pro Bed Leveling Gcode
+; Author: rairaiken
 
 
 ; Preheat Bed
@@ -54,14 +55,14 @@ G1 Z0
 M25
 
 
-; BL Touch Probing 
+; BL Touch Probing
 G90
 M83
 M117 Homing all axes
 G28
 M117 Creating the bed mesh levels ; send message to printer display
 M155 S30 ; reduce temperature reporting rate to reduce output pollution
-@BEDLEVELVISUALIZER	; tell the plugin to watch for reported mesh
+@BEDLEVELVISUALIZER	; tell the bed visualizer plugin to watch for reported mesh
 G29 T	   ; run bilinear probing
 M155 S3  ; reset temperature reporting
 M117 Saving bed mesh to EEPROM ; send message to printer display
