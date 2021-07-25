@@ -51,6 +51,7 @@ M25
 G1 Z5
 G1 X32 Y36 F3000
 G1 Z0.2
+M25
 ; End Manual Bed Leveling
 
 ; BL Touch Probing
