@@ -51,14 +51,9 @@ M25
 G1 Z5
 G1 X32 Y36 F3000
 G1 Z0.2
-M25
-G1 Z5
-G1 X20 Y20 F3000 ; return to home
 ; End Manual Bed Leveling
 
 ; BL Touch Probing
-G90
-M83
 M117 Creating the bed mesh levels ; send message to printer display
 M155 S30 ; reduce temperature reporting rate to reduce output pollution
 @BEDLEVELVISUALIZER	; tell the bed visualizer plugin to watch for reported mesh
