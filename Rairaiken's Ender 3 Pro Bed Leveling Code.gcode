@@ -19,7 +19,6 @@ M109 S150 ; wait for nozzle temp
 
 
 ; Start Manual Bed Leveling
-M25
 G1 Z5
 G1 X32 Y206 F3000
 G1 Z0.2
