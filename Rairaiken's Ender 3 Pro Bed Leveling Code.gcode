@@ -71,6 +71,8 @@ G1 Z0.2
 M25
 
 ; Bed Level completed
+M107 ; turn off fan
+M84 X Y E ; disable motors
 G1 Z5
 G1 X20 Y20 F3000 ; return to home
 
