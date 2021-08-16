@@ -22,35 +22,35 @@ M109 S150 ; wait for nozzle temp
 G1 Z5
 G1 X32 Y206 F3000
 G1 Z0.2
-M226
+M0
 G1 Z10
 G1 X202 Y206 F3000
 G1 Z0.2
-M226
+M0
 G1 Z5
 G1 X202 Y36 F3000
 G1 Z0.2
-M226
+M0
 G1 Z5
 G1 X32 Y36 F3000
 G1 Z0.2
-M226
+M0
 G1 Z5
 G1 X32 Y206 F3000
 G1 Z0.2
-M226
+M0
 G1 Z10
 G1 X202 Y206 F3000
 G1 Z0.2
-M226
+M0
 G1 Z5
 G1 X202 Y36 F3000
 G1 Z0.2
-M226
+M0
 G1 Z5
 G1 X32 Y36 F3000
 G1 Z0.2
-M226
+M0
 ; End Manual Bed Leveling
 
 ; BL Touch Probing
@@ -68,7 +68,7 @@ M117 Bed mesh levels completed; send message to printer display
 M117 Measure Z distance at center; send message to printer display
 G1 X110 Y110 F3000
 G1 Z0.2
-M226
+M0
 
 ; Bed Level completed
 M107 ; turn off fan
