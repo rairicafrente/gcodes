@@ -1,6 +1,6 @@
 ; My Ender 3 Pro Bed Leveling Gcode
 ; Author: rairaiken
-; Last Updated: 16 Aug 2021
+; Last Updated: 23 Aug 2021
 
 
 ; Define probe Z offset. Change this to your own probe offset value
